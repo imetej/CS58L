@@ -1,0 +1,10 @@
+var a = parseInt(prompt("Enter the value of a : ",""));
+var b = parseInt(prompt("Enter the value of b : ",""));
+var add = a + b;
+var sub = a - b;
+var mul = a * b;
+var div = a / b;
+document.write("Addition of " + a + " and " + b + " is " + add + ".<br/>");
+document.write("Subtraction of " + a + " and " + b + " is " + sub + ".<br/>");
+document.write("Multiplication of " + a + " and " + b + " is " + mul + ".<br/>");
+document.write("Division of " + a + " and " + b + " is " + div + ".<br/>");

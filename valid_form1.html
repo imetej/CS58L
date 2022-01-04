@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8" />
+    </head>
+<body>
+    <script type="text/javascript" src="C:\Users\HP\Documents\GitHub\CS58L\valid_form.js"></script>
+    <h1>Registration Form</h1>
+    <form id="validForm" onsubmit="getFormvalue()">
+        <label for="name">Name : </label><input type="text" id="uname" name="uname" size="20" required/><br/><br/>
+        <label for="email">Email : </label><input type="email" id="email" name="email" size="50" required/><br/><br/>
+        <label for="mobile">Mobile Number : </label><input type="tel" id="mobile" name="mobile" size="20" required/><br/><br/>
+        <label for="gender">Gender :</label>
+        <Select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </Select><br/><br/>
+        <label for="color">Favorite Color : </label><input type="text" id="color" name="color" size="10" required/><br/><br/>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

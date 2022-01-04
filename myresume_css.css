@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-my-resume-background-material-image_177383.jpg");
+    background-color: lightblue;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sizeclass {
+    font-size: 20px;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: red;
+    text-decoration: underline;
+}

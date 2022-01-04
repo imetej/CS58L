@@ -1,0 +1,68 @@
+.p1 {
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+  font-style: oblique;
+  font-variant: initial;
+  font-weight: 900;
+  font-size: 2.5em;
+  font-family: "Trirong", serif;
+}
+
+.p3 {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
+
+.p4 {
+  font: 20px Arial, sans-serif;
+}
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNVaqnsRT3juZn52mioBy9MbAdWieWyHwUHGw0Tg17LYWTHOIQEVaeY5kS6S6xAhWIffQ&usqp=CAU");
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+  background-color: black;
+}
+
+a:active {
+  color: orange;
+  text-decoration: underline;
+  background-color: cyan;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+  background-color: white;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: none;
+  background-color: yellow;
+}
+
+h2 {
+  visibility: visible;
+}
+
+h3 {
+  visibility: hidden;
+}
+
+h4 {
+  visibility: collapse;
+}

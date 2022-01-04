@@ -1,0 +1,9 @@
+.borderclass {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+    /*border-style: dotted solid dashed solid;*/
+    border-width: 2pt;
+    border-color: black;
+}

@@ -1,0 +1,9 @@
+h1 {
+    margin-left: 125px;
+}
+
+[type="submit"] {
+    clear: right;
+    margin: 10px 0 0 380px;
+    font-size:25px
+}
